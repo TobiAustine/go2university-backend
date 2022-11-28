@@ -18,7 +18,7 @@ const createTopic = asyncHandler(async (req,res) => {
 
     if(!name || !subject || !department || !tutor ){
         res.status(404)
-        throw new Error("Please fill in all details")
+        throw new Error("Please fill in all details.")
     } 
     
     const newTopic = await topicModel.create({name, subject, department,tutor, url})
