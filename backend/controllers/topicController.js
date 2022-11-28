@@ -1,5 +1,5 @@
 const asyncHandler = require("express-async-handler")
-const topicModel = require('./../models/topicModel')
+const topicModel = require('../../models/topicModel')
 
 
  const getTopics = asyncHandler(async(req,res) => {
