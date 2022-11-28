@@ -156,7 +156,7 @@ const getUser = asyncHandler( async(req,res) => {
 
    // res.send('heyy')
 // res.status(200).json(req.user)
-
+ 
 
 })
 
